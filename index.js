@@ -27,9 +27,9 @@ Ao final deve se exibir uma mensagem:
 "O Herói de nome **{nome}** está no nível de **{nivel}**"
 */
 
-let xp = 1000
+let xp = 980
 
-if (Number(xp) < 1000 && Number(xp) > 1000){
+if (Number(xp) < 1000){
     xp = 'Ferro'    
 }
 
