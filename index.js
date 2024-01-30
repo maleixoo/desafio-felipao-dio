@@ -27,10 +27,23 @@ Ao final deve se exibir uma mensagem:
 "O Herói de nome **{nome}** está no nível de **{nivel}**"
 */
 
-let xp = 980
+let xp = 9001
+let nome = 'Matheus'
 
 if (Number(xp) < 1000){
-    xp = 'Ferro'    
+    xp = 'Ferro'  
+} else if (Number(xp) > 1000 && Number(xp) < 2000){
+    xp = 'Bronze'
+} else if (Number(xp) > 2000 && Number(xp) <= 5000){
+    xp = 'Prata'
+} else if (Number(xp) > 5000 && Number(xp) <= 7000){
+    xp = 'Ouro'
+} else if (Number(xp) > 7000 && Number(xp) <= 8000){
+    xp = 'Platina'
+} else if (Number(xp) > 8000 && Number(xp) <= 9000){
+    xp = 'Ascendente'
+} else if (Number(xp) > 9000 && Number(xp) <= 10000){
+    xp = 'Radiante'
 }
 
-console.log(xp)
+console.log(`O Herói de nome ${nome}, está no nivel ${xp}.`)
