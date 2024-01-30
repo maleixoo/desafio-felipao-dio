@@ -27,5 +27,9 @@ Ao final deve se exibir uma mensagem:
 "O Herói de nome **{nome}** está no nível de **{nivel}**"
 */
 
+let xp = 1000
 
-let xp = readline("Qual a quantidade de XP do seu herói?")
+if (xp < 1000 && xp > 1000){
+    xp = 'Ferro'
+    console.log(xp)
+}
