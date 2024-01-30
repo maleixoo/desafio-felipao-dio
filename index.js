@@ -43,6 +43,8 @@ if (Number(xp) < 1000){
 } else if (Number(xp) > 8000 && Number(xp) <= 9000){
     xp = 'Ascendente'
 } else if (Number(xp) > 9000 && Number(xp) <= 10000){
+    xp = 'Imortal'
+} else {
     xp = 'Radiante'
 }
 
