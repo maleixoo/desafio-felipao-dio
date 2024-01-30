@@ -30,6 +30,6 @@ Ao final deve se exibir uma mensagem:
 let xp = 1000
 
 if (xp < 1000 && xp > 1000){
-    xp = 'Ferro'
-    console.log(xp)
+    xp = 'Ferro'    
 }
+console.log(xp)
