@@ -29,7 +29,8 @@ Ao final deve se exibir uma mensagem:
 
 let xp = 1000
 
-if (xp < 1000 && xp > 1000){
+if (Number(xp) < 1000 && Number(xp) > 1000){
     xp = 'Ferro'    
 }
+
 console.log(xp)
